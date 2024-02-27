@@ -1,0 +1,8 @@
+USE BD_LEHKOVIE1;
+GO
+EXEC CHEL_DOB
+@ID = '-334',
+@FIO='Сергей Валуев Андреевич',
+@MESTO_ROZHD='Абакан',
+@VIN_NUMBER_TRADE='45672GHFJDI4'
+

@@ -1,0 +1,12 @@
+USE BD_LEHKOVIE1;
+GO 
+EXEC AVTO_DOB
+@MODEL='POLO',
+@MARKA='VOLKSWAGEN',
+@KUZOV='SEDAN',
+@VIN_NUMBER='RFG5622H89',
+@price_car='1800000',
+@color='black',
+@obem_dvig='1',
+@HP='122'
+SELECT* FROM AVTO;
